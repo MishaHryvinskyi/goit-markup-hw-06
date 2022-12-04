@@ -1086,6 +1086,10 @@ overflow: hidden;
 
 } 
 
+.icons-svg-char:hover {
+    fill:var(--acent-color);
+}
+
 .icons-svg-char {
     width: 18px;
     height: 18px;
@@ -1111,19 +1115,47 @@ color: var(--primary-text-color);
     margin-bottom: 10px;
 }
 
+.input-style:hover,
+.input-style:active {
+    border: 1px solid var(--acent-color);
+    transition-property: border, color ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .submit-button-style {
     width: 200px;
     height: 50px;
     color: var(--primary-fon-color);
     background-color: var(--acent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
     padding: 10px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition-property: background-color, color ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 64px; 
 }
+
+
+.submit-button-style:hover {
+    background-color: var(--secondary-fon-col);
+    color: var(--primary-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
 
 .modal-style-area {
     padding: 40px;
+   justify-content: center;
+   text-align: center;
 }
 
 .label-style {
@@ -1136,4 +1168,7 @@ color: var(--primary-text-color);
     margin-bottom: 4px;
     letter-spacing: 0.01em;
 
+}
+.coments-style {
+    height: 120px;
 }
