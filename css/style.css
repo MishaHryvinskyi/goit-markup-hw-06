@@ -1140,7 +1140,7 @@ color: var(--primary-text-color);
     transition-property: background-color, color ;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 64px; 
+    
 }
 
 
@@ -1169,6 +1169,7 @@ color: var(--primary-text-color);
     letter-spacing: 0.01em;
 
 }
-.coments-style {
-    height: 120px;
+
+.submit-button-style {
+    margin-top: 30px;
 }
