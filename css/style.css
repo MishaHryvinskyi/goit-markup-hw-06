@@ -867,6 +867,7 @@ margin-right: 10px;
 .footer-item {
     align-items: baseline;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo-footer {
@@ -879,7 +880,7 @@ margin-right: 10px;
 
 .div-fot {
     display: inline-block;
-    margin-right: ;
+    
 }
 
 
@@ -889,8 +890,8 @@ margin-right: 10px;
 }
 
 .footer-input-area {
-    display: inline-block;
-    align-items: baseline;
+    justify-content: flex-end;
+    margin-left: 93px;
 
 }
 
@@ -901,6 +902,7 @@ margin-right: 10px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-fon-color);
+    margin-bottom: 20px;
 
 }
 .input-footer {
@@ -911,7 +913,17 @@ margin-right: 10px;
     border-radius: 4px;
     background-color: var(--darc-fon-color);
 }
-
+.footer-list {
+    display: flex;
+}
+input[placeholder] {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    padding: 15px 16px;
+    color: var(--secondary-texy-color);
+}
 
 
 /* --------Портфоліо--------- */
