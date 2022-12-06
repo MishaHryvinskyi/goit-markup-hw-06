@@ -387,6 +387,7 @@
             <p class="paragraph-input">Підпишіться на розсилку</p>
             <input class="input-footer" type="email" name="mail" id="mail" placeholder="E-mail">
             <button class="submit-button-style" type="submit">
+
                 Підписатися</button>
         </div>
     </div>
@@ -396,21 +397,35 @@
                     <form action="">
                         <div class="modal-style-area">
                         <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
-
+                            <div>
                             <label class="label-style" for="name">Ім'я</label>
-                            <input class="input-style" type="text" name="name" id="name">
-
-                           <label class="label-style" for="tel">Телефон</label> 
-                           <input class="input-style" type="tel" name="tel" id="tel">
-
-                           <label class="label-style" for="mail">Пошта</label> 
-                           <input class="input-style" type="email" name="mail" id="mail">
-                           
+                            <svg class="input-svg">
+                                <use href="./images/icons.svg#icon--"></use>
+                            </svg>
+                            <input class="input-style" type="text" name="name" id="name"required>
+                            </div>
+                            <div>
+                           <label class="label-style" for="tel">Телефон</label>
+                           <svg class="input-svg">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg> 
+                           <input class="input-style" type="tel" name="tel" id="tel"
+                           pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" required>
+                           </div>
+                           <div>
+                           <label class="label-style" for="mail">Пошта</label>
+                           <svg class="input-svg">
+                            <use href="./images/icons.svg#icon-email-black"></use>
+                        </svg> 
+                           <input class="input-style" type="email" name="mail" id="mail"required>
+                           </div>
+                           <div>
                            <label class="label-style" for="ilma">Коментар</label> 
-                           <textarea name="" id="" cols="2" rows="5" placeholder="Введіть текст"></textarea>
+                           <textarea class="text-area" name="comment" id="comment"  placeholder="Введіть текст"></textarea>
+                           </div>
                            <div class="checkbox-style">
-                           <input class="" type="checkbox" name="" id="">
-                           <label class="label-s input-style" for="">Погоджуюся з розсилкою та приймаю <a href="">Умови договору<a/></label> 
+                           <input class="input-checkbox" type="checkbox" name="comment" id="comment">
+                           <label class="label-s input-style" for="comment">Погоджуюся з розсилкою та приймаю <a href="">Умови договору<a/></label> 
                            </div>
                         
 
