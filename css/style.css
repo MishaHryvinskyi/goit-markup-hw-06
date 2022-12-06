@@ -925,6 +925,33 @@ input[placeholder] {
     color: var(--secondary-texy-color);
 }
 
+.footer-button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--acent-color);
+    color:var(--primary-fon-color);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: ;
+}
+
+.footer-button:hover {
+    background-color: var(--secondary-fon-col);
+    color: var(--primary-text-color);
+}
+
+.icon-svg-button {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
 
 /* --------Портфоліо--------- */
 .pic-title {
@@ -1160,7 +1187,6 @@ color: var(--primary-text-color);
 
 
 .submit-button-style {
-    display: inline-flex;
     width: 200px;
     height: 50px;
     color: var(--primary-fon-color);
@@ -1186,14 +1212,7 @@ color: var(--primary-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.submit-button-style::before {
-    content: '';
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-color: pink;
 
-}
 
 
 .modal-style-area {
