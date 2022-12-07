@@ -948,6 +948,7 @@ input[placeholder] {
     border: none;
 }
 
+
 .footer-button:hover,
 .footer-button:focus {
     background-color: var(--secondary-fon-col);
@@ -1194,6 +1195,7 @@ color: var(--primary-text-color);
     left: 576px;
     top: 382px; 
     margin-bottom: 10px;
+
 }
 
 .input-style:hover,
@@ -1290,9 +1292,15 @@ color: var(--primary-text-color);
 .input-svg {
     width: 18px;
     height: 18px;
+    position: absolute;
+
 
 }
 .input-svg:hover,
 .input-svg:focus {
     fill: var(--acent-color);
+}
+
+.div-position-icon {
+    position: relative;
 }
