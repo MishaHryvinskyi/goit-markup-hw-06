@@ -1334,11 +1334,15 @@ textarea [placeholder] {
     letter-spacing: 0.03em;
 }
 
-.input-checkbox:checked + label::before {
+.modal-politic-check {
+ fill: transparent;
+}
+
+ .input-checkbox:checked + label::before {
    border: none;
     background-color: #212121;
     background-image: url(../images/icon\ check.svg);
-}
+} 
 .input-svg {
     position: absolute;
     width: 18px;
