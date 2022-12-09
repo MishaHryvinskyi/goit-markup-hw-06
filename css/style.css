@@ -1206,6 +1206,10 @@ color: var(--primary-text-color);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
+.input-style:active {
+    border: 1px solid var(--acent-color);
+}
+
 .input-style:hover +svg,
 .input-style:focus +svg{
     fill:var(--acent-color);
@@ -1280,17 +1284,21 @@ color: var(--primary-text-color);
     letter-spacing: 0.01em;
 } 
 
-
+.style-area {
+    resize:none;
+    margin: 0px;
+    column-count:unset;
+    margin-bottom: 14px;
+}
  .text-area {
     resize: none;
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding: 12px 16px;
-    margin-bottom: 20px;
-    
+    padding: 12px 16px; 
 } 
+
 
 textarea [placeholder] {
     font-weight: 400;
