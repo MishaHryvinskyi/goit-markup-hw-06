@@ -1312,6 +1312,7 @@ textarea [placeholder] {
 }
 .linc-conditions {
     color: var(--acent-color);
+    margin-left: 7px;
 }
 
 
