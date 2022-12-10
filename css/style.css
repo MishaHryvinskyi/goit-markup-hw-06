@@ -886,7 +886,6 @@ margin-right: 10px;
 }
 
 .footer-input-area {
-    justify-content: flex-end;
     margin-left: 93px;
 
 }
@@ -952,12 +951,27 @@ input[placeholder] {
 .footer-button:focus {
     background-color: var(--secondary-fon-col);
     color: var(--primary-text-color);
+   
+
+    transition-property: background-color, color ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-button:hover .icon-svg-button {
+    fill: var(--primary-text-color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-svg-button {
     width: 24px;
     height: 24px;
     margin-left: 10px;
+    fill: var(--primary-fon-color);
 }
 
 .line-fo {
@@ -1014,8 +1028,8 @@ input[placeholder] {
 }
 
 .portfolio-overlay-div {
-position: relative;
-overflow: hidden;
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -1167,7 +1181,7 @@ overflow: hidden;
 
 } 
 
-.icons-svg-char:hover {
+.close:hover {
     fill:var(--acent-color);
 }
 
