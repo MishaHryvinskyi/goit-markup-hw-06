@@ -1216,15 +1216,13 @@ color: var(--primary-text-color);
 } 
 
 
-.input-style:focus {
-    border: 1px solid var(--acent-color);
+.input-style:focus-within {
+    border-color: var(--acent-color);
 
     transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
-.input-style:hover +svg,
-.input-style:focus +svg{
+
+.input-style:focus-within +svg{
     fill:var(--acent-color);
 
     transition-property: fill;
@@ -1233,8 +1231,8 @@ color: var(--primary-text-color);
     fill: var(--acent-color);
 } 
 
-.text-area:hover,
-.text-area:focus {
+
+.text-area:focus-within {
     border: 1px solid var(--acent-color);
 
     transition-property: border;
