@@ -1211,15 +1211,16 @@ color: var(--primary-text-color);
     height: 40px;
     left: 576px;
     top: 382px; 
-    cursor: pointer;
+
     padding-left: 42px;
 } 
 
-
+.input-style:focus-visible {
+    border-color: var(--acent-color);
+}
 .input-style:focus-within {
     border-color: var(--acent-color);
 
-    transition-property: border;
 } 
 
 .input-style:focus-within +svg{
